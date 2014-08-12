@@ -9,5 +9,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
+	<TextView
+		android:id="@+id/stuff"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:paddingBottom="25dip"
+		android:textSize="24.5sp"
+		android:text="game" />
+
+	<EditText
+		android:id="@+id/etx"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:inputType="number"
+		android:imeOptions="actionNone"
+		android:text="20"
+		android:hint="x" />
+	<EditText
+		android:id="@+id/ety"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:inputType="number"
+		android:imeOptions="actionNone"
+		android:text="35"
+		android:hint="y" />
+	<EditText
+		android:id="@+id/etc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:inputType="number"
+		android:imeOptions="actionNone"
+		android:text="1"
+		android:hint="number of \'living\' colors [1-3]" />
+	
+	<Button
+		android:id="@+id/start_B"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="start"
+		android:onClick="init"/>
+		
 
 </LinearLayout>
